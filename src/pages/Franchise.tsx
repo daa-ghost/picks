@@ -13,14 +13,14 @@ export default function Franchise() {
       <Navigation />
       
       <div className="section-padding py-16 md:py-24 max-w-4xl mx-auto">
-        <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tight mb-4 text-brand-charcoal drop-shadow-[2px_2px_0px_#EE4238]">
+        <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tight mb-4 text-brand-charcoal drop-shadow-[2px_2px_0px_#C9222B]">
           Franchise
         </h1>
         <p className="text-lg font-bold text-brand-charcoal mb-12">
           Nous vous remercions de votre intérêt pour l'acquisition d'une franchise PICKS! Remplissez le formulaire ci-dessous pour commencer.
         </p>
 
-        <form className="bg-white border-4 border-brand-charcoal rounded-[16px] p-8 md:p-12 shadow-[8px_8px_0px_0px_#1A1A1A] space-y-8">
+        <form className="bg-white border-4 border-brand-charcoal rounded-[16px] p-8 md:p-12 shadow-[8px_8px_0px_0px_#111111] space-y-8">
           
           {/* Informations personnelles */}
           <div className="space-y-6">
@@ -152,7 +152,7 @@ export default function Franchise() {
             <textarea className="w-full flex-1 p-3 border-2 border-brand-charcoal rounded-[8px] focus:outline-none focus:ring-4 focus:ring-brand-red/20 transition-all font-bold min-h-[150px]"></textarea>
           </div>
 
-          <button type="submit" className="btn-primary w-full text-lg py-5 mt-8 hover:-translate-y-1 hover:shadow-[8px_8px_0px_0px_#1A1A1A] transition-all">
+          <button type="submit" className="btn-primary w-full text-lg py-5 mt-8 hover:-translate-y-1 hover:shadow-[8px_8px_0px_0px_#111111] transition-all">
             SOUMETTRE LA DEMANDE
           </button>
 
