@@ -63,12 +63,11 @@ export default function Navigation() {
           onClick={() => handleNavClick("/#home")}
           className="flex flex-col items-start group"
         >
-          <span className="text-4xl font-black text-brand-red tracking-widest leading-none drop-shadow-[2px_2px_0px_#111111]">
-            PICKS
-          </span>
-          <span className="text-[0.6rem] font-bold text-brand-charcoal uppercase tracking-[0.2em] leading-none mt-1">
-            The Picky Experience
-          </span>
+          <img 
+            src={`${import.meta.env.BASE_URL}images/picks.jpg`} 
+            alt="PICKS Logo" 
+            className="h-12 w-auto object-contain rounded-md border-2 border-brand-charcoal shadow-[2px_2px_0px_#111111]"
+          />
         </button>
 
         {/* Desktop Nav */}

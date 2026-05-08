@@ -119,11 +119,12 @@ export default function Hero() {
         <div className="relative w-full h-[50vh] lg:h-auto flex items-center justify-center mt-10 md:mt-0 z-10">
           
           {/* Spinning Badge */}
-          <div className="spin-badge absolute top-0 lg:top-10 right-4 lg:-right-4 w-28 h-28 lg:w-36 lg:h-36 bg-brand-red border-4 border-brand-charcoal rounded-full flex items-center justify-center z-30 shadow-[6px_6px_0px_#111111]">
-            <div className="text-white font-black text-center leading-none">
-              <span className="text-2xl lg:text-3xl block">BEST</span>
-              <span className="text-sm lg:text-base block">IN TOWN</span>
-            </div>
+          <div className="spin-badge absolute top-0 lg:top-10 right-4 lg:-right-4 w-28 h-28 lg:w-36 lg:h-36 bg-brand-red border-4 border-brand-charcoal rounded-full flex items-center justify-center z-30 shadow-[6px_6px_0px_#111111] overflow-hidden p-2">
+            <img 
+              src={`${import.meta.env.BASE_URL}images/symbil.png`} 
+              alt="Picks Signature Symbol" 
+              className="w-full h-full object-contain"
+            />
           </div>
 
           {/* Main Image Container */}
