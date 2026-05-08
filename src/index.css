@@ -47,44 +47,44 @@
 @layer components {
   .text-gradient {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, #EE4238, #FF807B);
+    background-image: linear-gradient(135deg, #C9222B, #D93A42);
   }
 
   .bg-cream {
-    background-color: #F9F6F0;
+    background-color: #F5F2EE;
   }
 
   .btn-primary {
     @apply inline-flex items-center justify-center px-8 py-4 rounded-[8px] font-black text-white transition-all duration-200 uppercase tracking-widest;
-    background: #EE4238;
-    border: 3px solid #1A1A1A;
-    box-shadow: 5px 5px 0px 0px #1A1A1A;
+    background: #C9222B;
+    border: 3px solid #111111;
+    box-shadow: 5px 5px 0px 0px #111111;
   }
 
   .btn-primary:active {
     transform: translate(3px, 3px);
-    box-shadow: 2px 2px 0px 0px #1A1A1A;
+    box-shadow: 2px 2px 0px 0px #111111;
   }
 
   .btn-primary:hover {
-    background: #CC2B22;
+    background: #D93A42;
   }
 
   .btn-secondary {
     @apply inline-flex items-center justify-center px-8 py-4 rounded-[8px] font-black transition-all duration-200 uppercase tracking-widest;
-    background: #F9F6F0;
-    color: #1A1A1A;
-    border: 3px solid #1A1A1A;
-    box-shadow: 5px 5px 0px 0px #1A1A1A;
+    background: #F5F2EE;
+    color: #111111;
+    border: 3px solid #111111;
+    box-shadow: 5px 5px 0px 0px #111111;
   }
 
   .btn-secondary:active {
     transform: translate(3px, 3px);
-    box-shadow: 2px 2px 0px 0px #1A1A1A;
+    box-shadow: 2px 2px 0px 0px #111111;
   }
 
   .btn-secondary:hover {
-    background: #f0ebe1;
+    background: #e8e2d8;
   }
 
   .glass-nav {
@@ -93,12 +93,12 @@
 
   .menu-card {
     @apply relative overflow-hidden rounded-[12px] transition-all duration-300 bg-white border-4 border-black;
-    box-shadow: 8px 8px 0px 0px #1A1A1A;
+    box-shadow: 8px 8px 0px 0px #111111;
   }
 
   .menu-card:hover {
     transform: translate(-4px, -4px);
-    box-shadow: 12px 12px 0px 0px #1A1A1A;
+    box-shadow: 12px 12px 0px 0px #111111;
   }
 
   .section-padding {

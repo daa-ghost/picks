@@ -70,10 +70,10 @@ export default function PromoSpotlight() {
       <div className="section-padding relative z-10 flex flex-col items-center justify-center">
         
         {/* Neobrutalist Promo Card */}
-        <div className="promo-card bg-brand-cream border-4 border-brand-charcoal rounded-[16px] p-6 md:p-10 max-w-4xl w-full" style={{ boxShadow: "12px 12px 0px 0px #1A1A1A" }}>
+        <div className="promo-card bg-brand-cream border-4 border-brand-charcoal rounded-[16px] p-6 md:p-10 max-w-4xl w-full" style={{ boxShadow: "12px 12px 0px 0px #111111" }}>
           <div className="flex flex-col md:flex-row gap-8 items-center">
             
-            <div className="w-full md:w-1/2 aspect-square relative border-4 border-brand-charcoal rounded-[8px] overflow-hidden bg-brand-ash" style={{ boxShadow: "6px 6px 0px 0px #1A1A1A" }}>
+            <div className="w-full md:w-1/2 aspect-square relative border-4 border-brand-charcoal rounded-[8px] overflow-hidden bg-brand-ash" style={{ boxShadow: "6px 6px 0px 0px #111111" }}>
               <img
                 src={`${import.meta.env.BASE_URL}images/promo-food.jpg`}
                 alt="Promo Food"
@@ -85,7 +85,7 @@ export default function PromoSpotlight() {
               <div className="bg-brand-charcoal text-brand-cream px-4 py-2 text-sm font-bold uppercase tracking-widest rounded-full mb-6">
                 Limited Time
               </div>
-              <h2 className="text-3xl md:text-5xl font-black text-brand-charcoal uppercase leading-none mb-6" style={{ textShadow: "2px 2px 0px #EE4238" }}>
+              <h2 className="text-3xl md:text-5xl font-black text-brand-charcoal uppercase leading-none mb-6" style={{ textShadow: "2px 2px 0px #C9222B" }}>
                 Nothing But <br />The Best
               </h2>
               <p className="text-brand-charcoal font-bold text-lg mb-8">

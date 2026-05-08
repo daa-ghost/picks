@@ -70,7 +70,7 @@ export default function FeaturedMenu() {
             Our Menu
           </h2>
           <h3 className="menu-header text-brand-charcoal text-4xl md:text-6xl font-black tracking-tight mb-6">
-            SIGNATURE <span className="text-brand-red" style={{ textShadow: "3px 3px 0px #1A1A1A" }}>CREATIONS</span>
+            SIGNATURE <span className="text-brand-red" style={{ textShadow: "3px 3px 0px #111111" }}>CREATIONS</span>
           </h3>
           <p className="menu-header text-brand-charcoal font-bold text-lg max-w-2xl mx-auto">
             Every dish is crafted with passion using the finest ingredients, bringing authentic Moroccan flavors to modern fast food.
@@ -88,7 +88,7 @@ export default function FeaturedMenu() {
                   ? "bg-brand-red text-white"
                   : "bg-white text-brand-charcoal hover:bg-brand-cream"
               }`}
-              style={activeCategory === cat ? { boxShadow: "3px 3px 0px 0px #1A1A1A", transform: "translate(-2px, -2px)" } : {}}
+              style={activeCategory === cat ? { boxShadow: "3px 3px 0px 0px #111111", transform: "translate(-2px, -2px)" } : {}}
             >
               {cat}
             </button>
@@ -112,7 +112,7 @@ export default function FeaturedMenu() {
                   alt={item.name}
                   className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110 drop-shadow-[4px_4px_0px_rgba(26,26,26,0.3)]"
                 />
-                <button className="absolute bottom-4 right-4 w-12 h-12 rounded-[8px] border-2 border-brand-charcoal bg-brand-red text-white flex items-center justify-center shadow-[4px_4px_0px_0px_#1A1A1A] opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-300 hover:-translate-y-1 hover:shadow-[6px_6px_0px_0px_#1A1A1A]">
+                <button className="absolute bottom-4 right-4 w-12 h-12 rounded-[8px] border-2 border-brand-charcoal bg-brand-red text-white flex items-center justify-center shadow-[4px_4px_0px_0px_#111111] opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-300 hover:-translate-y-1 hover:shadow-[6px_6px_0px_0px_#111111]">
                   <Plus size={22} className="stroke-[3px]" />
                 </button>
               </div>
@@ -123,14 +123,14 @@ export default function FeaturedMenu() {
                   <h4 className="text-brand-charcoal text-xl font-black leading-tight uppercase">
                     {item.name}
                   </h4>
-                  <span className="text-brand-red font-black text-lg whitespace-nowrap ml-3 drop-shadow-[1px_1px_0px_#1A1A1A]">
+                  <span className="text-brand-red font-black text-lg whitespace-nowrap ml-3 drop-shadow-[1px_1px_0px_#111111]">
                     {item.price}
                   </span>
                 </div>
                 <p className="text-brand-charcoal font-bold text-sm leading-relaxed">
                   {item.description}
                 </p>
-                <button className="mt-5 w-full py-3 rounded-[8px] border-2 border-brand-charcoal bg-brand-cream text-brand-charcoal text-sm font-black hover:bg-brand-red hover:text-white transition-all duration-300 shadow-[3px_3px_0px_0px_#1A1A1A] hover:shadow-[4px_4px_0px_0px_#1A1A1A] uppercase tracking-wider">
+                <button className="mt-5 w-full py-3 rounded-[8px] border-2 border-brand-charcoal bg-brand-cream text-brand-charcoal text-sm font-black hover:bg-brand-red hover:text-white transition-all duration-300 shadow-[3px_3px_0px_0px_#111111] hover:shadow-[4px_4px_0px_0px_#111111] uppercase tracking-wider">
                   Add to Cart
                 </button>
               </div>

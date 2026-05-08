@@ -51,7 +51,7 @@ export default function Contact() {
       id="contact"
       ref={sectionRef}
       className="relative py-24 md:py-32"
-      style={{ backgroundColor: "#1A1A1A" }}
+      style={{ backgroundColor: "#111111" }}
     >
       <div className="section-padding">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">

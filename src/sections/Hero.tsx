@@ -64,7 +64,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 z-0 pointer-events-none" 
         style={{ 
-          backgroundImage: "radial-gradient(#1A1A1A 2px, transparent 2px)", 
+          backgroundImage: "radial-gradient(#111111 2px, transparent 2px)", 
           backgroundSize: "30px 30px",
           opacity: 0.05 
         }}
@@ -76,7 +76,7 @@ export default function Hero() {
         <div className="flex flex-col items-start pt-10 lg:pt-0 relative z-20">
           
           <div className="overflow-hidden mb-4">
-            <span className="hero-word block bg-brand-charcoal text-brand-cream px-4 py-2 font-bold uppercase tracking-widest text-sm rounded-full border-2 border-brand-charcoal shadow-[4px_4px_0px_#1A1A1A]">
+            <span className="hero-word block bg-brand-charcoal text-brand-cream px-4 py-2 font-bold uppercase tracking-widest text-sm rounded-full border-2 border-brand-charcoal shadow-[4px_4px_0px_#111111]">
               100% Genuine Taste
             </span>
           </div>
@@ -86,7 +86,7 @@ export default function Hero() {
           >
             <div className="overflow-hidden py-2"><span className="hero-word block">Crave</span></div>
             <div className="overflow-hidden py-2">
-              <span className="hero-word block text-brand-red flex items-center gap-4" style={{ textShadow: "4px 4px 0px #1A1A1A" }}>
+              <span className="hero-word block text-brand-red flex items-center gap-4" style={{ textShadow: "4px 4px 0px #111111" }}>
                 The Bold
                 <Star className="hidden lg:block text-brand-cream fill-brand-charcoal w-12 h-12 lg:w-20 lg:h-20 stroke-[3]" />
               </span>
@@ -119,7 +119,7 @@ export default function Hero() {
         <div className="relative w-full h-[50vh] lg:h-auto flex items-center justify-center mt-10 md:mt-0 z-10">
           
           {/* Spinning Badge */}
-          <div className="spin-badge absolute top-0 lg:top-10 right-4 lg:-right-4 w-28 h-28 lg:w-36 lg:h-36 bg-brand-red border-4 border-brand-charcoal rounded-full flex items-center justify-center z-30 shadow-[6px_6px_0px_#1A1A1A]">
+          <div className="spin-badge absolute top-0 lg:top-10 right-4 lg:-right-4 w-28 h-28 lg:w-36 lg:h-36 bg-brand-red border-4 border-brand-charcoal rounded-full flex items-center justify-center z-30 shadow-[6px_6px_0px_#111111]">
             <div className="text-white font-black text-center leading-none">
               <span className="text-2xl lg:text-3xl block">BEST</span>
               <span className="text-sm lg:text-base block">IN TOWN</span>
@@ -127,7 +127,7 @@ export default function Hero() {
           </div>
 
           {/* Main Image Container */}
-          <div className="hero-image relative w-[90%] max-w-[450px] aspect-square bg-brand-ash border-[8px] border-brand-charcoal rounded-full flex items-center justify-center shadow-[16px_16px_0px_#1A1A1A] overflow-visible">
+          <div className="hero-image relative w-[90%] max-w-[450px] aspect-square bg-brand-ash border-[8px] border-brand-charcoal rounded-full flex items-center justify-center shadow-[16px_16px_0px_#111111] overflow-visible">
             
             {/* The Image inside the circle */}
             <div className="absolute inset-0 rounded-full overflow-hidden bg-brand-ash">
@@ -135,14 +135,14 @@ export default function Hero() {
             </div>
             
             {/* Floating pop-out element */}
-            <div className="floating-element absolute -bottom-6 -left-6 bg-white border-4 border-brand-charcoal p-4 rounded-[12px] shadow-[8px_8px_0px_#1A1A1A] z-20 transform -rotate-6">
+            <div className="floating-element absolute -bottom-6 -left-6 bg-white border-4 border-brand-charcoal p-4 rounded-[12px] shadow-[8px_8px_0px_#111111] z-20 transform -rotate-6">
               <span className="text-brand-red font-black text-xl flex items-center gap-2 uppercase tracking-wide">
                 <span className="text-3xl">🔥</span> Served Hot
               </span>
             </div>
 
             {/* Another smaller floating element */}
-            <div className="floating-element absolute top-10 -left-8 bg-brand-charcoal border-4 border-brand-cream p-3 rounded-[12px] shadow-[6px_6px_0px_#EE4238] z-20 transform rotate-12" style={{ animationDelay: '0.5s' }}>
+            <div className="floating-element absolute top-10 -left-8 bg-brand-charcoal border-4 border-brand-cream p-3 rounded-[12px] shadow-[6px_6px_0px_#C9222B] z-20 transform rotate-12" style={{ animationDelay: '0.5s' }}>
               <span className="text-brand-cream font-bold flex items-center gap-2 uppercase text-sm tracking-widest">
                 100% Fresh
               </span>

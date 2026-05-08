@@ -83,7 +83,7 @@ export default function Locations() {
       id="locations"
       ref={sectionRef}
       className="relative py-24 md:py-32"
-      style={{ backgroundColor: "#1A1A1A" }}
+      style={{ backgroundColor: "#111111" }}
     >
       <div className="section-padding">
         {/* Header */}
