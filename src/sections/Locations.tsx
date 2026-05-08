@@ -151,7 +151,7 @@ export default function Locations() {
         {/* Map Placeholder */}
         <div className="loc-card relative rounded-3xl overflow-hidden border border-white/10" style={{ height: "400px" }}>
           <img
-            src="/images/restaurant-interior.jpg"
+            src={`${import.meta.env.BASE_URL}images/restaurant-interior.jpg`}
             alt="Restaurant Interior"
             className="w-full h-full object-cover opacity-60"
           />

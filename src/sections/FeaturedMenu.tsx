@@ -8,15 +8,15 @@ gsap.registerPlugin(ScrollTrigger);
 const categories = ["All", "Burgers", "Tacos", "Shawarma", "Panini", "Pizza", "Drinks", "Desserts"];
 
 const menuItems = [
-  { id: 1, name: "Royal Double Burger", description: "Double beef patty, melted cheddar, caramelized onions, special sauce", price: "55 MAD", category: "Burgers", image: "/images/menu-1.png" },
-  { id: 2, name: "Crispy Chicken Tacos", description: "Golden fried chicken, salsa, cilantro, lime, orange spicy sauce", price: "42 MAD", category: "Tacos", image: "/images/menu-2.png" },
-  { id: 3, name: "Grilled Chicken Shawarma", description: "Marinated chicken, tahini sauce, pickled turnips, fresh veggies", price: "38 MAD", category: "Shawarma", image: "/images/menu-3.png" },
-  { id: 4, name: "Mozzarella Panini", description: "Grilled chicken, mozzarella, sun-dried tomatoes, pesto", price: "45 MAD", category: "Panini", image: "/images/menu-4.png" },
-  { id: 5, name: "Merguez Pizza", description: "Spicy sausage, roasted peppers, olives, herbs, thin crust", price: "65 MAD", category: "Pizza", image: "/images/menu-5.png" },
-  { id: 6, name: "Orange Blossom Juice", description: "Fresh orange juice with mint, ice, and a hint of rose water", price: "22 MAD", category: "Drinks", image: "/images/menu-6.png" },
-  { id: 7, name: "Spiced Fries", description: "Golden crispy fries with Moroccan paprika and herb seasoning", price: "18 MAD", category: "Burgers", image: "/images/menu-7.png" },
-  { id: 8, name: "Crispy Chicken Wings", description: "Golden fried chicken wings with signature orange dipping sauce", price: "48 MAD", category: "Burgers", image: "/images/menu-8.png" },
-  { id: 9, name: "Honey Chebakia", description: "Traditional Moroccan honey sesame cookies, orange blossom garnish", price: "25 MAD", category: "Desserts", image: "/images/menu-9.png" },
+  { id: 1, name: "Royal Double Burger", description: "Double beef patty, melted cheddar, caramelized onions, special sauce", price: "55 MAD", category: "Burgers", image: "images/menu-1.png" },
+  { id: 2, name: "Crispy Chicken Tacos", description: "Golden fried chicken, salsa, cilantro, lime, orange spicy sauce", price: "42 MAD", category: "Tacos", image: "images/menu-2.png" },
+  { id: 3, name: "Grilled Chicken Shawarma", description: "Marinated chicken, tahini sauce, pickled turnips, fresh veggies", price: "38 MAD", category: "Shawarma", image: "images/menu-3.png" },
+  { id: 4, name: "Mozzarella Panini", description: "Grilled chicken, mozzarella, sun-dried tomatoes, pesto", price: "45 MAD", category: "Panini", image: "images/menu-4.png" },
+  { id: 5, name: "Merguez Pizza", description: "Spicy sausage, roasted peppers, olives, herbs, thin crust", price: "65 MAD", category: "Pizza", image: "images/menu-5.png" },
+  { id: 6, name: "Orange Blossom Juice", description: "Fresh orange juice with mint, ice, and a hint of rose water", price: "22 MAD", category: "Drinks", image: "images/menu-6.png" },
+  { id: 7, name: "Spiced Fries", description: "Golden crispy fries with Moroccan paprika and herb seasoning", price: "18 MAD", category: "Burgers", image: "images/menu-7.png" },
+  { id: 8, name: "Crispy Chicken Wings", description: "Golden fried chicken wings with signature orange dipping sauce", price: "48 MAD", category: "Burgers", image: "images/menu-8.png" },
+  { id: 9, name: "Honey Chebakia", description: "Traditional Moroccan honey sesame cookies, orange blossom garnish", price: "25 MAD", category: "Desserts", image: "images/menu-9.png" },
 ];
 
 export default function FeaturedMenu() {
@@ -108,7 +108,7 @@ export default function FeaturedMenu() {
               {/* Image */}
               <div className="relative h-56 overflow-hidden bg-brand-ash border-b-4 border-brand-charcoal flex items-center justify-center p-6">
                 <img
-                  src={item.image}
+                  src={`${import.meta.env.BASE_URL}${item.image}`}
                   alt={item.name}
                   className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110 drop-shadow-[4px_4px_0px_rgba(26,26,26,0.3)]"
                 />

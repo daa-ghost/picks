@@ -75,7 +75,7 @@ export default function PromoSpotlight() {
             
             <div className="w-full md:w-1/2 aspect-square relative border-4 border-brand-charcoal rounded-[8px] overflow-hidden bg-brand-ash" style={{ boxShadow: "6px 6px 0px 0px #1A1A1A" }}>
               <img
-                src="/images/promo-food.jpg"
+                src={`${import.meta.env.BASE_URL}images/promo-food.jpg`}
                 alt="Promo Food"
                 className="w-full h-full object-cover"
               />
