@@ -64,7 +64,7 @@ export default function Navigation() {
           className="flex flex-col items-start group"
         >
           <img 
-            src={`${import.meta.env.BASE_URL}images/picks.jpg`} 
+            src={`${import.meta.env.BASE_URL}images/img.png`} 
             alt="PICKS Logo" 
             className="h-12 w-auto object-contain rounded-md border-2 border-brand-charcoal shadow-[2px_2px_0px_#111111]"
           />
