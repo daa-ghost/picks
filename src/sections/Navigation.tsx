@@ -66,7 +66,7 @@ export default function Navigation() {
           <img 
             src={`${import.meta.env.BASE_URL}images/img.png`} 
             alt="PICKS Logo" 
-            className="h-12 w-auto object-contain rounded-md border-2 border-brand-charcoal shadow-[2px_2px_0px_#111111]"
+            className="h-16 md:h-20 w-auto object-contain rounded-[8px] border-2 border-brand-charcoal shadow-[3px_3px_0px_#111111] transition-transform duration-300 group-hover:-translate-y-1"
           />
         </button>
 
